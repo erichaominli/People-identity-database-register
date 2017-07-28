@@ -11,11 +11,11 @@ namespace databaseGame
     {
         public static SqlConnection GetDBConnection()
         {
-            string datasource = @"TESQL3";
+            string datasource =...
 
             string database = "eric test";
-            string username = "web.user";
-            string password = "webuser02182000";
+            string username = ...
+            string password = "...
 
             return DBSQLServerUtils.GetDBConnection(datasource, database, username, password);
         }
